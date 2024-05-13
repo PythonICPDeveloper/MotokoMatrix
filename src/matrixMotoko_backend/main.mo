@@ -1,5 +1,9 @@
+import Matrix "./lib/matrix";
 actor {
-  public query func greet(name : Text) : async Text {
-    return "Hello, " # name # "!";
+
+  let m1: Matrix.Matrix = {
+    matrix = [var [var 1,2], [var 3,4]];
+    shape = {cols = 2; rows = 2};
   };
+ 
 };
